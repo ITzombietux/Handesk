@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9335AF822431E08800FB8B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AF812431E08800FB8B5E /* AppDelegate.swift */; };
+		9335AF842431E08800FB8B5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AF832431E08800FB8B5E /* SceneDelegate.swift */; };
+		9335AF862431E08800FB8B5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AF852431E08800FB8B5E /* ViewController.swift */; };
+		9335AF892431E08800FB8B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9335AF872431E08800FB8B5E /* Main.storyboard */; };
+		9335AF8B2431E08900FB8B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9335AF8A2431E08900FB8B5E /* Assets.xcassets */; };
+		9335AF8E2431E08900FB8B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9335AF8C2431E08900FB8B5E /* LaunchScreen.storyboard */; };
+		9335AF992431E08900FB8B5E /* HandeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AF982431E08900FB8B5E /* HandeskTests.swift */; };
+		9335AFA52431E0F000FB8B5E /* TicketsListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AFA42431E0F000FB8B5E /* TicketsListViewControllerTest.swift */; };
+		9335AFA82431E8B200FB8B5E /* TicketsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AFA72431E8B200FB8B5E /* TicketsListViewController.swift */; };
+		9335AFAB2431E9B700FB8B5E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335AFAA2431E9B700FB8B5E /* Ticket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9335AF952431E08900FB8B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9335AF762431E08800FB8B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9335AF7D2431E08800FB8B5E;
+			remoteInfo = Handesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9335AF7E2431E08800FB8B5E /* Handesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9335AF812431E08800FB8B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9335AF832431E08800FB8B5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9335AF852431E08800FB8B5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9335AF882431E08800FB8B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9335AF8A2431E08900FB8B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9335AF8D2431E08900FB8B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9335AF8F2431E08900FB8B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9335AF942431E08900FB8B5E /* HandeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9335AF982431E08900FB8B5E /* HandeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandeskTests.swift; sourceTree = "<group>"; };
+		9335AF9A2431E08900FB8B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9335AFA42431E0F000FB8B5E /* TicketsListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsListViewControllerTest.swift; sourceTree = "<group>"; };
+		9335AFA72431E8B200FB8B5E /* TicketsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsListViewController.swift; sourceTree = "<group>"; };
+		9335AFAA2431E9B700FB8B5E /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9335AF7B2431E08800FB8B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9335AF912431E08900FB8B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9335AF752431E08800FB8B5E = {
+			isa = PBXGroup;
+			children = (
+				9335AF802431E08800FB8B5E /* Handesk */,
+				9335AF972431E08900FB8B5E /* HandeskTests */,
+				9335AF7F2431E08800FB8B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9335AF7F2431E08800FB8B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9335AF7E2431E08800FB8B5E /* Handesk.app */,
+				9335AF942431E08900FB8B5E /* HandeskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9335AF802431E08800FB8B5E /* Handesk */ = {
+			isa = PBXGroup;
+			children = (
+				9335AFA92431E9A900FB8B5E /* Models */,
+				9335AFA62431E89800FB8B5E /* controllers */,
+				9335AF812431E08800FB8B5E /* AppDelegate.swift */,
+				9335AF832431E08800FB8B5E /* SceneDelegate.swift */,
+				9335AF852431E08800FB8B5E /* ViewController.swift */,
+				9335AF872431E08800FB8B5E /* Main.storyboard */,
+				9335AF8A2431E08900FB8B5E /* Assets.xcassets */,
+				9335AF8C2431E08900FB8B5E /* LaunchScreen.storyboard */,
+				9335AF8F2431E08900FB8B5E /* Info.plist */,
+			);
+			path = Handesk;
+			sourceTree = "<group>";
+		};
+		9335AF972431E08900FB8B5E /* HandeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				9335AFA32431E0D200FB8B5E /* feature */,
+				9335AF982431E08900FB8B5E /* HandeskTests.swift */,
+				9335AF9A2431E08900FB8B5E /* Info.plist */,
+			);
+			path = HandeskTests;
+			sourceTree = "<group>";
+		};
+		9335AFA32431E0D200FB8B5E /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				9335AFA42431E0F000FB8B5E /* TicketsListViewControllerTest.swift */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		9335AFA62431E89800FB8B5E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9335AFA72431E8B200FB8B5E /* TicketsListViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		9335AFA92431E9A900FB8B5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9335AFAA2431E9B700FB8B5E /* Ticket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9335AF7D2431E08800FB8B5E /* Handesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9335AF9D2431E08900FB8B5E /* Build configuration list for PBXNativeTarget "Handesk" */;
+			buildPhases = (
+				9335AF7A2431E08800FB8B5E /* Sources */,
+				9335AF7B2431E08800FB8B5E /* Frameworks */,
+				9335AF7C2431E08800FB8B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handesk;
+			productName = Handesk;
+			productReference = 9335AF7E2431E08800FB8B5E /* Handesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9335AF932431E08900FB8B5E /* HandeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9335AFA02431E08900FB8B5E /* Build configuration list for PBXNativeTarget "HandeskTests" */;
+			buildPhases = (
+				9335AF902431E08900FB8B5E /* Sources */,
+				9335AF912431E08900FB8B5E /* Frameworks */,
+				9335AF922431E08900FB8B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9335AF962431E08900FB8B5E /* PBXTargetDependency */,
+			);
+			name = HandeskTests;
+			productName = HandeskTests;
+			productReference = 9335AF942431E08900FB8B5E /* HandeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9335AF762431E08800FB8B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = zombietux;
+				TargetAttributes = {
+					9335AF7D2431E08800FB8B5E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9335AF932431E08900FB8B5E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9335AF7D2431E08800FB8B5E;
+					};
+				};
+			};
+			buildConfigurationList = 9335AF792431E08800FB8B5E /* Build configuration list for PBXProject "Handesk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9335AF752431E08800FB8B5E;
+			productRefGroup = 9335AF7F2431E08800FB8B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9335AF7D2431E08800FB8B5E /* Handesk */,
+				9335AF932431E08900FB8B5E /* HandeskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9335AF7C2431E08800FB8B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9335AF8E2431E08900FB8B5E /* LaunchScreen.storyboard in Resources */,
+				9335AF8B2431E08900FB8B5E /* Assets.xcassets in Resources */,
+				9335AF892431E08800FB8B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9335AF922431E08900FB8B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9335AF7A2431E08800FB8B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9335AFA82431E8B200FB8B5E /* TicketsListViewController.swift in Sources */,
+				9335AF862431E08800FB8B5E /* ViewController.swift in Sources */,
+				9335AFAB2431E9B700FB8B5E /* Ticket.swift in Sources */,
+				9335AF822431E08800FB8B5E /* AppDelegate.swift in Sources */,
+				9335AF842431E08800FB8B5E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9335AF902431E08900FB8B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9335AFA52431E0F000FB8B5E /* TicketsListViewControllerTest.swift in Sources */,
+				9335AF992431E08900FB8B5E /* HandeskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9335AF962431E08900FB8B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9335AF7D2431E08800FB8B5E /* Handesk */;
+			targetProxy = 9335AF952431E08900FB8B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9335AF872431E08800FB8B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9335AF882431E08800FB8B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9335AF8C2431E08900FB8B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9335AF8D2431E08900FB8B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9335AF9B2431E08900FB8B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9335AF9C2431E08900FB8B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9335AF9E2431E08900FB8B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G43M5CX79;
+				INFOPLIST_FILE = Handesk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zombietux.Handesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9335AF9F2431E08900FB8B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G43M5CX79;
+				INFOPLIST_FILE = Handesk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zombietux.Handesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9335AFA12431E08900FB8B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G43M5CX79;
+				INFOPLIST_FILE = HandeskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zombietux.HandeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handesk.app/Handesk";
+			};
+			name = Debug;
+		};
+		9335AFA22431E08900FB8B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G43M5CX79;
+				INFOPLIST_FILE = HandeskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zombietux.HandeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handesk.app/Handesk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9335AF792431E08800FB8B5E /* Build configuration list for PBXProject "Handesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9335AF9B2431E08900FB8B5E /* Debug */,
+				9335AF9C2431E08900FB8B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9335AF9D2431E08900FB8B5E /* Build configuration list for PBXNativeTarget "Handesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9335AF9E2431E08900FB8B5E /* Debug */,
+				9335AF9F2431E08900FB8B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9335AFA02431E08900FB8B5E /* Build configuration list for PBXNativeTarget "HandeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9335AFA12431E08900FB8B5E /* Debug */,
+				9335AFA22431E08900FB8B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9335AF762431E08800FB8B5E /* Project object */;
+}
